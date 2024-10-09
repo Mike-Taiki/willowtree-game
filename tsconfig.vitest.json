@@ -6,6 +6,13 @@
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.vitest.tsbuildinfo",
 
     "lib": [],
-    "types": ["node", "jsdom"]
+    "types": [
+      "node",
+      "jsdom",
+      "vitest/globals",
+      "vitest/jsdom",
+      "@types/testing-library__jest-dom",
+      "@testing-library/jest-dom"
+    ]
   }
 }
