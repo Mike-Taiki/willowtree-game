@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 
 import { render } from '@testing-library/vue'
-import HelloWorld from '@/modules/HelloWorld.vue'
+import HelloWorld from '@/modules/home/pages/Home.vue'
 
 describe('HelloWorld', () => {
   it('renders properly', () => {
