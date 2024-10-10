@@ -6,25 +6,32 @@
     padding: 20px 50px;
     justify-content: center;
     align-items: center;
-    flex: 1;
     position: relative;
+    flex-wrap: wrap;
+    gap: 20px;
 
-    &::before {
-      content: '';
-      position: absolute;
-      left: 20px;
-      top: 30px;
+    &-icon {
       border: solid white;
       border-width: 0 3px 3px 0;
       display: inline-block;
       padding: 3px;
       transform: rotate(135deg);
       -webkit-transform: rotate(135deg);
+      cursor: pointer;
     }
-  }
 
-  &__title {
-    align-self: left;
-    color: white;
+    &-title {
+      color: white;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    &-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 100%;
+    }
   }
 }
