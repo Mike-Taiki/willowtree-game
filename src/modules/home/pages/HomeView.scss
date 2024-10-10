@@ -1,9 +1,9 @@
 .home {
   height: 100vh;
-  background-color: $bg-dark-blue;
+  background-color: $dark-blue;
 
   &-content {
-    color: white;
+    color: $light-white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,9 +21,9 @@
     }
 
     &__button {
-      background-color: $bg-light-blue;
+      background-color: $light-blue;
       border: none;
-      color: $bg-white;
+      color: $light-white;
       border-radius: 14px;
       font-size: 17px;
       font-weight: 700;
