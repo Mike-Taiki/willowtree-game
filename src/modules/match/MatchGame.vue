@@ -1,8 +1,8 @@
 <template>
   <Header></Header>
-  <main class="wrapper">
-    <p class="wrapper__info">Try matching the WillowTree employee to their photo.</p>
-    <h2 class="wrapper__heading">Erika Cober</h2>
+  <main class="game">
+    <p class="game__info">Try matching the WillowTree employee to their photo.</p>
+    <h2 class="game__heading">Erika Cober</h2>
   </main>
 </template>
 <script lang="ts" setup>
@@ -16,5 +16,5 @@ onMounted(async () => {
 })
 </script>
 <style lang="scss" scoped>
-@import './Match.scss';
+@import './MatchGame.scss';
 </style>
