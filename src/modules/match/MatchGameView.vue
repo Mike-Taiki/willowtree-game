@@ -18,7 +18,7 @@
 <script lang="ts" setup>
 import Header from '@/shared/components/HeaderComponent.vue'
 import { onMounted } from 'vue'
-import { getProfiles } from '../home/services'
+import { getProfiles } from './services'
 
 onMounted(async () => {
   const data = await getProfiles()
@@ -26,5 +26,5 @@ onMounted(async () => {
 })
 </script>
 <style lang="scss" scoped>
-@import './MatchGame.scss';
+@import './MatchGameView.scss';
 </style>

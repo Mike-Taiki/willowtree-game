@@ -11,7 +11,7 @@ const router = createRouter({
     {
       path: '/match',
       name: 'match',
-      component: () => import('@/modules/match/MatchGame.vue')
+      component: () => import('@/modules/match/MatchGameView.vue')
     }
   ]
 })
