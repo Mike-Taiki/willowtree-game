@@ -16,5 +16,5 @@ function goBack() {
 }
 </script>
 <style scoped lang="scss">
-@import './Header.scss';
+@import './HeaderComponent.scss';
 </style>
