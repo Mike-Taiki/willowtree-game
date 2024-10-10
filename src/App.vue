@@ -1,8 +1,6 @@
 <template>
-  <Home msg="Home"></Home>
+  <router-view></router-view>
 </template>
-<script setup lang="ts">
-import Home from '@/modules/home/pages/Home.vue'
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss" scoped></style>

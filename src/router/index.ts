@@ -7,6 +7,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: () => import('@/modules/home/pages/Home.vue')
+    },
+    {
+      path: '/match',
+      name: 'match',
+      component: () => import('@/modules/match/Match.vue')
     }
   ]
 })

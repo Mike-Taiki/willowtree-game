@@ -1,0 +1,30 @@
+.header {
+  background-color: $bg-dark-blue;
+
+  &__nav {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 30px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+  }
+
+  &__title {
+    align-self: left;
+    color: white;
+  }
+}
